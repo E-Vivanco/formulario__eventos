@@ -46,6 +46,10 @@ function validacion() {
         postalc.style.backgroundColor = '#D0090344';
         alerts.classList.remove("d-none");
     }
+    if(messagec.value === "") {
+        messagec.style.backgroundColor = '#D0090344';
+        alerts.classList.remove("d-none");
+    }
 }
 
 formulario.addEventListener("submit", (e) => {
